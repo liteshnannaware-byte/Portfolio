@@ -9,6 +9,10 @@ import companyImg from '../assets/projects/company_reports.jpg';
 import safeviewImg from '../assets/projects/safeview.jpg';
 import hyundaiImg from '../assets/projects/hyundai_sales.jpg';
 import movieImg from '../assets/projects/movie_sales.png';
+import ecommerceImg from '../assets/projects/ecommerce_sales.jpg';
+import studentImg from '../assets/projects/student_dashboard.jpg';
+import groceryImg from '../assets/projects/grocery_pos.jpg';
+import hotelImg from '../assets/projects/hotel_pos.jpg';
 
 const allProjectsData = [
   {
@@ -143,7 +147,7 @@ const allProjectsData = [
     category: 'Excel',
     categoryLabel: 'Excel & BI',
     tagline: 'Dynamic Excel executive dashboard with Pivot Tables, timeline slicers & sales forecasting',
-    image: companyImg,
+    image: ecommerceImg,
     techStack: ['Advanced Excel', 'Pivot Tables', 'Interactive Slicers', 'Formula Modeling', 'Sales Forecasting', 'KPI Cards'],
     metrics: [
       { label: 'Tool', val: 'Advanced Excel' },
@@ -164,7 +168,7 @@ const allProjectsData = [
     category: 'Excel',
     categoryLabel: 'Excel & BI',
     tagline: 'Academic scorecards, attendance analytics & automated grading models built in Advanced Excel',
-    image: companyImg,
+    image: studentImg,
     techStack: ['Advanced Excel', 'Conditional Formatting', 'Pivot Charts', 'Nested Formulas', 'KPI Tracking'],
     metrics: [
       { label: 'Domain', val: 'Education Analytics' },
@@ -185,7 +189,7 @@ const allProjectsData = [
     category: 'SQL',
     categoryLabel: 'SQL & Python',
     tagline: 'Database-driven store management software managing inventory, suppliers & customer transactions',
-    image: bmwImg,
+    image: groceryImg,
     techStack: ['SQL', 'Python', 'Relational Schema', 'Inventory Management', 'Transaction Processing', 'CRUD Queries'],
     metrics: [
       { label: 'Language', val: 'Python & SQL' },
@@ -206,7 +210,7 @@ const allProjectsData = [
     category: 'Web',
     categoryLabel: 'Full-Stack Web & POS',
     tagline: 'Full-stack restaurant management, Live Kitchen Order Ticketing (KOT), dynamic UPI QR invoicing',
-    image: safeviewImg,
+    image: hotelImg,
     techStack: ['JavaScript', 'React', 'POS System', 'Kitchen Ticketing (KOT)', 'UPI QR Billing', 'WhatsApp Receipts'],
     metrics: [
       { label: 'Stack', val: 'Full-Stack JavaScript' },
